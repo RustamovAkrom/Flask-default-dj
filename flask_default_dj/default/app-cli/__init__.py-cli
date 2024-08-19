@@ -1,0 +1,18 @@
+from flask import Blueprint
+
+# App configurations
+<APP_NAME>_dp = Blueprint(
+    name="<APP_NAME>",
+    import_name=__name__, 
+    template_folder="templates",
+)
+
+# Required configurations.
+APP_NAME = "<APP_NAME>"
+BLUEPRINT = <APP_NAME>_dp
+
+from .models import * # Noqa
+from .admin import * # Noqa
+from .views import * # Noqa
+from .urls import * # Noqa
+from .tests import * # Noqa

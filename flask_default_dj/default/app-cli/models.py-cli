@@ -1,0 +1,3 @@
+from flask_default_dj import db
+
+# Your models

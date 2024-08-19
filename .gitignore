@@ -1,0 +1,5 @@
+__pycache__/
+MD/
+apps/
+migrations/
+instance/

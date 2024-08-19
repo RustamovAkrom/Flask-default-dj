@@ -1,0 +1,4 @@
+from . import <APP_NAME>_dp
+from .views import *
+
+# Your added router functions

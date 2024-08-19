@@ -1,0 +1,3 @@
+from . import <APP_NAME>_dp
+
+# Your routes

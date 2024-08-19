@@ -1,0 +1,4 @@
+from flask_default_dj.extensions import admin, db
+from flask_default_dj.admin import ModelView
+
+# Your registered models on admin panel
